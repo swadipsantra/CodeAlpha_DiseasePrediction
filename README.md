@@ -74,6 +74,47 @@ D --> E[Model Evaluation]
 E --> F[Best Model Selection]
 F --> G[Streamlit Deployment]
 
+---
+
+## ✅ Then CONTINUE your README like this (outside Mermaid)
+
+```md
+## 📈 Model Performance
+
+| Model               | Performance |
+|--------------------|------------|
+| Logistic Regression | Good       |
+| SVM                 | Good       |
+| Random Forest       | ⭐ Best     |
+| XGBoost             | High       |
+
+---
+
+## 🖥️ Streamlit App Preview  
+
+---
+
+## 🚀 How to Run  
+
+### Install Dependencies  
+pip install pandas numpy matplotlib seaborn scikit-learn xgboost streamlit  
+
+### Run Model  
+python your_script.py  
+
+### Run Web App  
+streamlit run app.py  
+## 🔄 Workflow  
+
+```mermaid
+graph TD
+A[Data Collection] --> B[Data Preprocessing]
+B --> C[EDA]
+C --> D[Model Training]
+D --> E[Model Evaluation]
+E --> F[Best Model Selection]
+F --> G[Streamlit Deployment]
+
 📈 Model Performance
 | Model               | Performance |
 | ------------------- | ----------- |
