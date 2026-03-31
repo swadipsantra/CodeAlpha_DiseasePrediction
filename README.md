@@ -64,15 +64,16 @@ Disease-Prediction/
 ---
 
 ## 🔄 Workflow  
+## 🔄 Workflow  
 
 ```mermaid
-graph TD;
-A[Data Collection] --> B[Data Preprocessing];
-B --> C[EDA];
-C --> D[Model Training];
-D --> E[Model Evaluation];
-E --> F[Best Model Selection];
-F --> G[Streamlit Deployment];
+graph TD
+A[Data Collection] --> B[Data Preprocessing]
+B --> C[EDA]
+C --> D[Model Training]
+D --> E[Model Evaluation]
+E --> F[Best Model Selection]
+F --> G[Streamlit Deployment]
 
 | Model               | Performance |
 | ------------------- | ----------- |
