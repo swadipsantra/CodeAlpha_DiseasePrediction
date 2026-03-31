@@ -12,18 +12,22 @@ It also includes an interactive Streamlit web application that allows users to i
 To build a system that can:
 
 Predict diseases accurately
+
 Compare multiple ML models
+
 Provide an easy-to-use healthcare prediction interface
 🧠 Algorithms Used
 🔹 Logistic Regression
 🔹 Support Vector Machine (SVM)
 🔹 Random Forest 🌳
 🔹 XGBoost ⚡
+
 📊 Exploratory Data Analysis
 🔥 Correlation Heatmap
 ![Heatmap](images/heatmap.png)
 📈 Disease Distribution
 ![Distribution](images/distribution.png)
+
 🏗️ Project Structure
 Disease-Prediction/
 │── training_data.csv
@@ -32,12 +36,14 @@ Disease-Prediction/
 │── model.py
 │── README.md
 │── images/
+
 ⚙️ Tech Stack
 🐍 Python
 📊 Pandas, NumPy
 📉 Matplotlib, Seaborn
 🤖 Scikit-learn, XGBoost
 🌐 Streamlit
+
 🔄 Workflow
 graph TD;
 A[Data Collection] --> B[Data Preprocessing];
@@ -46,12 +52,14 @@ C --> D[Model Training];
 D --> E[Model Evaluation];
 E --> F[Best Model Selection];
 F --> G[Streamlit Deployment];
+
 📈 Model Performance
 Model	Performance
 Logistic Regression	✅ Good
 SVM	✅ Good
 Random Forest	⭐ Best
 XGBoost	✅ High
+
 🖥️ Streamlit App Preview
 ![App Screenshot](images/app.png)
 🚀 How to Run
@@ -61,6 +69,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn xgboost streamlit
 python your_script.py
 3️⃣ Run Web App
 streamlit run app.py
+
 🌐 Deployment
 
 You can deploy using:
