@@ -1,34 +1,48 @@
 # CodeAlpha_DiseasePrediction
-🩺 Disease Prediction from Medical Data
+# 🩺 Disease Prediction from Medical Data  
 
-📌 Project Overview
+![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python)
+![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
+![Streamlit](https://img.shields.io/badge/Streamlit-App-red?logo=streamlit)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![License](https://img.shields.io/badge/License-CodeAlpha-yellow)
 
-This project focuses on predicting diseases using machine learning algorithms based on patient medical data such as symptoms, age, and test results.
+---
+
+## 📌 Project Overview  
+This project focuses on predicting diseases using machine learning algorithms based on patient medical data such as symptoms, age, and test results.  
 
 It also includes an interactive Streamlit web application that allows users to input patient data and get real-time predictions.
 
-🎯 Objective
+---
 
+## 🎯 Objective  
 To build a system that can:
+- Predict diseases accurately  
+- Compare multiple ML models  
+- Provide an easy-to-use healthcare prediction interface  
 
-Predict diseases accurately
+---
 
-Compare multiple ML models
+## 🧠 Algorithms Used  
+- Logistic Regression  
+- Support Vector Machine (SVM)  
+- Random Forest  
+- XGBoost  
 
-Provide an easy-to-use healthcare prediction interface
-🧠 Algorithms Used
-🔹 Logistic Regression
-🔹 Support Vector Machine (SVM)
-🔹 Random Forest 🌳
-🔹 XGBoost ⚡
+---
 
-📊 Exploratory Data Analysis
-🔥 Correlation Heatmap
+## 📊 Exploratory Data Analysis  
+
+### 🔥 Correlation Heatmap  
 ![Heatmap](images/heatmap.png)
-📈 Disease Distribution
+
+### 📈 Disease Distribution  
 ![Distribution](images/distribution.png)
 
-🏗️ Project Structure
+---
+
+## 🏗️ Project Structure  
 Disease-Prediction/
 │── training_data.csv
 │── test_data.csv
@@ -37,14 +51,21 @@ Disease-Prediction/
 │── README.md
 │── images/
 
-⚙️ Tech Stack
-🐍 Python
-📊 Pandas, NumPy
-📉 Matplotlib, Seaborn
-🤖 Scikit-learn, XGBoost
-🌐 Streamlit
 
-🔄 Workflow
+---
+
+## ⚙️ Tech Stack  
+- Python  
+- Pandas, NumPy  
+- Matplotlib, Seaborn  
+- Scikit-learn, XGBoost  
+- Streamlit  
+
+---
+
+## 🔄 Workflow  
+
+```mermaid
 graph TD;
 A[Data Collection] --> B[Data Preprocessing];
 B --> C[EDA];
@@ -53,30 +74,30 @@ D --> E[Model Evaluation];
 E --> F[Best Model Selection];
 F --> G[Streamlit Deployment];
 
-📈 Model Performance
-Model	Performance
-Logistic Regression	✅ Good
-SVM	✅ Good
-Random Forest	⭐ Best
-XGBoost	✅ High
+| Model               | Performance |
+| ------------------- | ----------- |
+| Logistic Regression | Good        |
+| SVM                 | Good        |
+| Random Forest       | ⭐ Best      |
+| XGBoost             | High        |
 
 🖥️ Streamlit App Preview
-![App Screenshot](images/app.png)
+
 🚀 How to Run
-1️⃣ Install Dependencies
+Install Dependencies
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost streamlit
-2️⃣ Run Model
+Run Model
 python your_script.py
-3️⃣ Run Web App
+Run Web App
 streamlit run app.py
 
 🌐 Deployment
 
 You can deploy using:
 
-🔗 Streamlit Cloud
-🔗 Render
-🔗 Ngrok / Cloudflare Tunnel
+Streamlit Cloud
+Render
+Ngrok / Cloudflare Tunnel
 ✨ Features
 
 ✔ Multiple ML models comparison
@@ -95,7 +116,7 @@ You can deploy using:
 👨‍💻 Author
 
 Swadip Santra
-🎓 CodeAlpha Machine Learning Intern
+CodeAlpha Machine Learning Intern
 
 📜 License
 
