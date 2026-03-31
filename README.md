@@ -1,5 +1,5 @@
 # CodeAlpha_DiseasePrediction
-# 🩺 Disease Prediction from Medical Data  
+# 🩺 Disease Prediction from Medical Data
 
 ![Python](https://img.shields.io/badge/Python-3.9-blue?logo=python)
 ![Machine Learning](https://img.shields.io/badge/Machine-Learning-green)
@@ -9,40 +9,48 @@
 
 ---
 
-## 📌 Project Overview  
-This project focuses on predicting diseases using machine learning algorithms based on patient medical data such as symptoms, age, and test results.  
+## 📌 Project Overview
 
-It also includes an interactive Streamlit web application that allows users to input patient data and get real-time predictions.
+This project focuses on predicting diseases using machine learning algorithms based on patient medical data such as symptoms, age, and test results.
 
----
-
-## 🎯 Objective  
-To build a system that can:
-- Predict diseases accurately  
-- Compare multiple ML models  
-- Provide an easy-to-use healthcare prediction interface  
+It also includes an interactive Streamlit web application that allows users to input patient data and receive real-time predictions.
 
 ---
 
-## 🧠 Algorithms Used  
-- Logistic Regression  
-- Support Vector Machine (SVM)  
-- Random Forest  
-- XGBoost  
+## 🎯 Objective
+
+The goal of this project is to build a system that can:
+
+* Predict diseases accurately
+* Compare multiple machine learning models
+* Provide an easy-to-use healthcare prediction interface
 
 ---
 
-## 📊 Exploratory Data Analysis  
+## 🧠 Algorithms Used
 
-### 🔥 Correlation Heatmap  
+* Logistic Regression
+* Support Vector Machine (SVM)
+* Random Forest
+* XGBoost
+
+---
+
+## 📊 Exploratory Data Analysis
+
+### 🔥 Correlation Heatmap
+
 ![Heatmap](images/heatmap.png)
 
-### 📈 Disease Distribution  
+### 📈 Disease Distribution
+
 ![Distribution](images/distribution.png)
 
 ---
 
-## 🏗️ Project Structure  
+## 🏗️ Project Structure
+
+```
 Disease-Prediction/
 │── training_data.csv
 │── test_data.csv
@@ -50,32 +58,36 @@ Disease-Prediction/
 │── model.py
 │── README.md
 │── images/
-
-
----
-
-## ⚙️ Tech Stack  
-- Python  
-- Pandas, NumPy  
-- Matplotlib, Seaborn  
-- Scikit-learn, XGBoost  
-- Streamlit  
+```
 
 ---
 
-## 🔄 Workflow  
+## ⚙️ Tech Stack
+
+* Python
+* Pandas, NumPy
+* Matplotlib, Seaborn
+* Scikit-learn, XGBoost
+* Streamlit
+
+---
+
+## 🔄 Workflow
 
 ```mermaid
 graph TD
 A[Data Collection] --> B[Data Preprocessing]
-B --> C[EDA]
+B --> C[Exploratory Data Analysis]
 C --> D[Model Training]
 D --> E[Model Evaluation]
 E --> F[Best Model Selection]
 F --> G[Streamlit Deployment]
+```
 
 ---
+
 ## 📈 Model Performance
+
 | Model               | Performance |
 | ------------------- | ----------- |
 | Logistic Regression | Good        |
@@ -85,35 +97,47 @@ F --> G[Streamlit Deployment]
 
 ---
 
-## 🖥️ Streamlit App Preview
+## 🖥️ Streamlit App
 
-🚀 How to Run
-Install Dependencies
+### 🚀 How to Run
+
+#### 1. Install Dependencies
+
+```bash
 pip install pandas numpy matplotlib seaborn scikit-learn xgboost streamlit
-Run Model
-python your_script.py
-Run Web App
+```
+
+#### 2. Run the Model
+
+```bash
+python model.py
+```
+
+#### 3. Run the Web App
+
+```bash
 streamlit run app.py
+```
 
 ---
 
 ## 🌐 Deployment
 
-You can deploy using:
+You can deploy this project using:
 
-Streamlit Cloud
-Render
-Ngrok / Cloudflare Tunnel
+* Streamlit Cloud
+* Render
+* Ngrok / Cloudflare Tunnel
 
 ---
 
 ## ✨ Features
 
-✔ Multiple ML models comparison
+✔ Multiple ML model comparison
 ✔ Data visualization
 ✔ Real-time prediction
 ✔ User-friendly interface
-✔ Health insights
+✔ Actionable health insights
 
 ---
 
@@ -128,11 +152,12 @@ Ngrok / Cloudflare Tunnel
 
 ## 👨‍💻 Author
 
-Swadip Santra
+**Swadip Santra**
 CodeAlpha Machine Learning Intern
 
 ---
 
-📜 License
+## 📜 License
 
 This project is developed for educational purposes under the CodeAlpha Machine Learning Internship Program.
+
