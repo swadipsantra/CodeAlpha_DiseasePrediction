@@ -76,45 +76,6 @@ F --> G[Streamlit Deployment]
 
 ---
 
-## ✅ Then CONTINUE your README like this (outside Mermaid)
-
-```md
-## 📈 Model Performance
-
-| Model               | Performance |
-|--------------------|------------|
-| Logistic Regression | Good       |
-| SVM                 | Good       |
-| Random Forest       | ⭐ Best     |
-| XGBoost             | High       |
-
----
-
-## 🖥️ Streamlit App Preview  
-
----
-
-## 🚀 How to Run  
-
-### Install Dependencies  
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost streamlit  
-
-### Run Model  
-python your_script.py  
-
-### Run Web App  
-streamlit run app.py  
-## 🔄 Workflow  
-
-```mermaid
-graph TD
-A[Data Collection] --> B[Data Preprocessing]
-B --> C[EDA]
-C --> D[Model Training]
-D --> E[Model Evaluation]
-E --> F[Best Model Selection]
-F --> G[Streamlit Deployment]
-
 📈 Model Performance
 | Model               | Performance |
 | ------------------- | ----------- |
@@ -122,6 +83,8 @@ F --> G[Streamlit Deployment]
 | SVM                 | Good        |
 | Random Forest       | ⭐ Best      |
 | XGBoost             | High        |
+
+---
 
 🖥️ Streamlit App Preview
 
@@ -133,6 +96,8 @@ python your_script.py
 Run Web App
 streamlit run app.py
 
+---
+
 🌐 Deployment
 
 You can deploy using:
@@ -140,6 +105,9 @@ You can deploy using:
 Streamlit Cloud
 Render
 Ngrok / Cloudflare Tunnel
+
+---
+
 ✨ Features
 
 ✔ Multiple ML models comparison
@@ -148,6 +116,8 @@ Ngrok / Cloudflare Tunnel
 ✔ User-friendly interface
 ✔ Health insights
 
+---
+
 🔗 Submission Requirements Completed
 
 ✔ LinkedIn Post
@@ -155,10 +125,14 @@ Ngrok / Cloudflare Tunnel
 ✔ Model Implementation
 ✔ Evaluation Metrics (Precision, Recall, F1-score, ROC-AUC)
 
+---
+
 👨‍💻 Author
 
 Swadip Santra
 CodeAlpha Machine Learning Intern
+
+---
 
 📜 License
 
