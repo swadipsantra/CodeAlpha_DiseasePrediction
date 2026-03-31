@@ -73,7 +73,6 @@ C --> D[Model Training]
 D --> E[Model Evaluation]
 E --> F[Best Model Selection]
 F --> G[Streamlit Deployment]
-
 | Model               | Performance |
 | ------------------- | ----------- |
 | Logistic Regression | Good        |
