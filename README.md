@@ -75,8 +75,7 @@ E --> F[Best Model Selection]
 F --> G[Streamlit Deployment]
 
 ---
-
-📈 Model Performance
+## 📈 Model Performance
 | Model               | Performance |
 | ------------------- | ----------- |
 | Logistic Regression | Good        |
@@ -86,7 +85,7 @@ F --> G[Streamlit Deployment]
 
 ---
 
-🖥️ Streamlit App Preview
+## 🖥️ Streamlit App Preview
 
 🚀 How to Run
 Install Dependencies
@@ -98,7 +97,7 @@ streamlit run app.py
 
 ---
 
-🌐 Deployment
+## 🌐 Deployment
 
 You can deploy using:
 
@@ -108,7 +107,7 @@ Ngrok / Cloudflare Tunnel
 
 ---
 
-✨ Features
+## ✨ Features
 
 ✔ Multiple ML models comparison
 ✔ Data visualization
@@ -118,7 +117,7 @@ Ngrok / Cloudflare Tunnel
 
 ---
 
-🔗 Submission Requirements Completed
+## 🔗 Submission Requirements Completed
 
 ✔ LinkedIn Post
 ✔ GitHub Repository
@@ -127,7 +126,7 @@ Ngrok / Cloudflare Tunnel
 
 ---
 
-👨‍💻 Author
+## 👨‍💻 Author
 
 Swadip Santra
 CodeAlpha Machine Learning Intern
